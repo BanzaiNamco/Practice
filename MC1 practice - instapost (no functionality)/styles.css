@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    color : #262626;
+    font-size : 14px;
+    line-height: 18px;
+    font-family: Roboto, sans-serif;
+}
+#post {
+    border: 1px solid #E8EAED;
+    width: 450px;
+    background-color: #fafafa;
+    font-size: 14px;
+    margin: auto;
+}
+
+#profilepic {
+    width: 32px;
+    border-color: #EFEFEF;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+#user {
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+
+#upper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heavytext {
+    font-weight: 700;
+}
+
+#follow {
+    color: #3897f0;
+}
+
+#locationinfo {
+    line-height: 15px;
+    font-size: 12px;
+    margin-top: -1px;
+}
+
+#verification-check {
+  background-image: url('sprites2.png');
+  background-size: 410px 396px;
+  background-position: -395px -164px;
+  height: 12px;
+  width: 12px;
+  margin-left: 5px;
+}
+
+#content {
+    width: 450px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.innerfooterdiv{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.clickable{
+    display: inline-block;
+    background-image: url('sprites2.png');
+    background-size: 411px 393px;
+    height: 24px;
+    width: 24px;
+    margin: 2px;
+}
+#like {
+    background-position: 0px -319px;
+}
+
+#comments{
+    background-position: -125px -294px;
+}
+
+#share{
+    background-position: -200px -294px;
+}
+
+#bookmark{
+    background-position: -175px -344px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.w600{
+    font-weight: 600;
+}
+
+.tag{
+    color : #003469;
+}
+
+#date{
+    color : #999;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#likes {
+    margin-top: 5px;
+}
+p{
+    width: 95%;
+}
